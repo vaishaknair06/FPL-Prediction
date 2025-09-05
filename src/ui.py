@@ -1,5 +1,5 @@
 import streamlit as st
-from src.data_loader import load_fpl_data
+from data_loader import load_fpl_data
 
 st.set_page_config(page_title="FPL Team Optimizer", layout="wide")
 st.title("⚽ FPL Team Optimizer")
